@@ -4,13 +4,13 @@
 	<groupId>in.javahome</groupId>
 	<artifactId>myweb</artifactId>
 	<packaging>war</packaging>
-	<version>8.1.2-SNAPSHOT</version>
+	<version>8.2.0</version>
 	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
 	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http://18.234.217.63:9000/</sonar.host.url>
+		<sonar.host.url>http://54.152.242.151:9000/</sonar.host.url>
 
 	</properties>
 	<dependencies>
