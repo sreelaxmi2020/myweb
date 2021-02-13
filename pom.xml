@@ -1,4 +1,4 @@
-18.208.245.13118.208.245.131http://54.83.65.88<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>in.javahome</groupId>
@@ -10,7 +10,7 @@
 	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http://54.152.242.151:9000/</sonar.host.url>
+		<sonar.host.url>http://54.84.15.97:9000/</sonar.host.url>
 
 	</properties>
 	<dependencies>
@@ -28,18 +28,18 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://34.229.168.124:8081/repository/sample-snapshots/</url>
+		    <url>http://54.234.12.61:8081/repository/sample-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>http://34.229.168.124:8081/repository/sample-releases/</url>
+		    <url>http://54.234.12.61:8081/repository/sample-releases/</url>
 		</repository>
   	</distributionManagement>
 	
 	<pluginRepositories>
 	    <pluginRepository>    
-		<id>maven1</id>http://3.95.205.170
+		<id>maven1</id>
 		<name>Maven.org</name>
 		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
@@ -47,3 +47,4 @@
 
 	
 </project>
+
